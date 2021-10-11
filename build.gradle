@@ -109,7 +109,7 @@ configure(coreModule) {
         dbms = 'postgres'
         dbName = 'sales_test'
         dbUser = 'postgres'
-        dbPassword = System.getenv('cuba.dataSource.password')
+        dbPassword = System.getenv('POSTGRES_PASSWORD')
     }
 }
 
